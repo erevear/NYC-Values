@@ -1,0 +1,89 @@
+body, html {
+  margin:0;
+  height: 100%;
+}
+#video_page {
+  background-color:#ccc;
+  height: 100%;
+}
+#buttons {
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+#input_value {
+	margin-right:20%;
+	margin-top:50px;
+	width: 60%;
+    margin-left: 20%;
+	border: none;
+	border-bottom: solid; 2px black;
+}
+.button {
+    border:none;
+    padding:0;
+    background-color: purple;
+    padding: 15px 50px;
+}
+
+#menu {
+  background-color: Black;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height:50px;
+}
+
+.SD {
+
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.stories_menu {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.SD {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.SD a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.SD a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.stories_menu:hover .SD{
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.stories_menu:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.SD a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.show {display:block;}
